@@ -10,7 +10,7 @@ ul, li {
 }
 
 .menu {
-
+    margin-top: 10px;
 }
 .menu__item {
     font-weight: 700;
@@ -18,11 +18,11 @@ ul, li {
 }
 
 .menu__item a {
-    color: whitesmoke;
+    color: darkgray;
 }
 
 .book {
-    background: white;
+    background: chocolate;
     color: black;
     font-size: 14px;
     border-radius: 3px;
@@ -33,4 +33,26 @@ ul, li {
     cursor: pointer;
     width: 200px;
     border: 0;
+    margin-top: -5px;
+}
+
+.book__icon {
+    background: url('../img/phone-call.png');
+    width: 21px;
+    height: 21px;
+    display: block;
+}
+
+.main-header {
+    padding: 24 px 0;
+
+}
+
+.offer {
+    background: url('../img/Backgrounds_Black.jpg') no-repeat center top;
+
+}
+
+.title {
+    padding: 200px 0;
 }
