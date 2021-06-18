@@ -1,0 +1,32 @@
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: rgb(255, 242, 100);
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-toggler {
+  background: #fff;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+  background: #202020;
+}
+
+@media (max-width: 992px) {
+  .navbar-collapse {
+    margin: 0 -1.5rem;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .navbar-nav {
+    padding: 15px;
+  }
+}
